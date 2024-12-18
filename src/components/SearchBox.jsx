@@ -2,7 +2,7 @@ import iconSearch from "../assets/icon-search.svg";
 function SearchBox() {
   function handleSearch() {}
   return (
-    <div className="w-full rounded-[15px] bg-#FEFEFE py-[7px] pl-4 pr-[7px] shadow-box md:py-[9.5px] md:pl-8 md:pr-[10px] dark:bg-#1E2A47 dark:shadow-none">
+    <section className="mb-4 w-full rounded-[15px] bg-#FEFEFE py-[7px] pl-4 pr-[7px] shadow-box md:mb-6 md:py-[9.5px] md:pl-8 md:pr-[10px] dark:bg-#1E2A47 dark:shadow-none">
       <form
         className="flex w-full items-center justify-between"
         onSubmit={handleSearch}
@@ -28,7 +28,7 @@ function SearchBox() {
           </button>
         </div>
       </form>
-    </div>
+    </section>
   );
 }
 export default SearchBox;

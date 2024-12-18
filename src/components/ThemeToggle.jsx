@@ -34,10 +34,10 @@ function ThemeToggle() {
 
   return (
     <div
-      className="flex cursor-pointer items-center gap-4"
+      className="flex cursor-pointer items-center gap-4 text-#4B6A9B transition-colors hover:text-[#222731] dark:text-white hover:dark:text-[#90A4D4]"
       onClick={handleToggleTheme}
     >
-      <h3 className="text-[13px] font-bold leading-none tracking-[2.5px] text-#4B6A9B dark:text-white">
+      <h3 className="text-[13px] font-bold leading-none tracking-[2.5px]">
         {theme === "dark" ? "LIGHT" : "DARK"}
       </h3>
       <img src={theme === "dark" ? iconSun : iconMoon} alt="icon" />
