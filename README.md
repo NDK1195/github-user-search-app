@@ -8,8 +8,8 @@ This is a solution to the [GitHub user search app challenge on Frontend Mentor](
 
 ### Links
 
-- Solution URL: [Solution URL here](https://github.com/NDK1195/intro-component-with-signup-form)
-- Live Site URL: [Live site URL here](https://intro-component-with-signup-form-blue-tau.vercel.app/)
+- Solution URL: [Solution URL here](https://github.com/NDK1195/github-user-search-app)
+- Live Site URL: [Live site URL here](https://github-user-search-app-tau-two.vercel.app/)
 
 ### Built with
 
